@@ -1,0 +1,7 @@
+node_modules/
+.git/
+.env
+vendor/
+writable/cache/
+tests/_support/_generated/
+*.log

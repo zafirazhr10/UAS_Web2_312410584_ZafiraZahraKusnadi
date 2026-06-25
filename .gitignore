@@ -1,0 +1,46 @@
+# OS metadata & IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+frontend-spa/.gitignore
+
+# Node & Build
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Env & IDE
+.env
+.env.*
+!.env.example
+.vscode/*
+.DS_Store
+
+backend-api/.gitignore
+
+# CI4 Environment & Composer
+.env
+vendor/
+build/
+
+# Writable directory (Keep folders, ignore contents)
+writable/cache/*
+!writable/cache/.gitkeep
+writable/debugbar/*
+!writable/debugbar/.gitkeep
+writable/logs/*
+!writable/logs/.gitkeep
+writable/session/*
+!writable/session/.gitkeep
+
+# OS / IDE
+.DS_Store
+.vscode/
